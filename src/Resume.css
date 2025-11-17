@@ -1,15 +1,15 @@
-/* Resume.css */
-.resume-wrapper {
-  display: flex;
-  max-width: 1000px;
-  margin: 20px auto;
-  font-family: Arial, sans-serif;
-  color: #333;
-  line-height: 1.6;
-  background: #f9f9f9;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  border-radius: 8px;
+.resume-container {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+
+  display: flex;          /* <-- puts sidebar + main content side-by-side */
+  gap: 30px;              /* optional spacing between the two */
+  align-items: flex-start; /* keeps sidebar from stretching weirdly */
 }
+
 
 /* Sidebar */
 .sidebar {
@@ -23,7 +23,7 @@
 .sidebar h2 {
   border-bottom: 1px solid #ecf0f1;
   padding-bottom: 5px;
-  margin-top: 20px;
+  margin-top: 90px;
 }
 
 .sidebar ul {
@@ -68,20 +68,16 @@
 }
 
 header {
-  text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 header h1 {
   font-size: 2.5rem;
   color: #2c3e50;
-  margin-bottom: 5px;
+  margin: 0 0 10px 0;
+  text-align: left;   /* <-- not centered */
 }
 
-header p {
-  font-size: 1.2rem;
-  color: #7f8c8d;
-}
 
 h2 {
   color: rgb(255, 255, 255);

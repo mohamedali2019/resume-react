@@ -21,11 +21,11 @@ function Resume() {
       date: "Aug 2023 - Present",
       responsibilities: [
         "Handled system patching, license updates, and environment setup.",
-        "Created and updated troubleshooting guides and training materials.",
-        "Developed and executed patching procedures including backups, upgrades, deployments, reboots, and failovers.",
+        "Created and updated troubleshooting guides and training materials, boosting team efficiency and knowledge sharing.",
+        "Developed and executed patching procedures for various products, including backups, upgrade scripts, deployments, data updates, reboots, and failovers.",
         "Monitored and managed operational systems such as SCADA, ADMS, EMS, and GMS.",
         "Worked with Windows and Linux servers.",
-        "Provided remote technical support for SCADA systems."
+        "Provided remote technical support for SCADA systems, ensuring customer control systems remained reliable and well-maintained."
       ]
     },
     {
@@ -33,10 +33,12 @@ function Resume() {
       role: "IT Integration Analyst",
       date: "May 2023 - Aug 2023",
       responsibilities: [
-        "Developed and maintained applications: Sage, Fastfetch, Proship, BRS-Sync.",
+        "Developed, improved and maintained the following applications: Sage, Fastfetch, Proship and BRS-Sync (facilitates communication between systems like Magento and Sage).",
+        "Identified and developed software and/or hardware solutions that improve business workflows",
         "Automated ERP, Picking, and Shipping software processes using Python.",
         "Integrated company data using ETL practices.",
-        "Assisted business users with reporting."
+        "Assisted business users with writing report and identifying any table needed for reporting",
+        "Worked with IT Integration Manager to identify Integration and Operations department needs "
       ]
     },
     {
@@ -62,26 +64,29 @@ function Resume() {
       role: "Retail Sales Specialist",
       date: "Jun 2020 - May 2022",
       responsibilities: [
-        "Marketed promotions and processed large financial transactions.",
-        "Trained new employees and ensured operational efficiency."
+        "Marketed company’s promotions",
+        "Handled large financial payments and records",
+        "Trained and mentored new employees",
+        "all operations, focusing on quality and consistency",
+        "Used Tech efficiently for communication across departments"
       ]
     }
   ];
 
   return (
-    <div className="resume-wrapper">
-      {/* Left Sidebar */}
+    <div className="resume-container">
+  {/* your resume content */}
       <aside className="sidebar">
         <h2>Skills</h2>
         <ul>
-          {["JavaScript", "Python", "HTML / CSS", "React"].map(skill => (
+          {["JavaScript", "Python", "HTML / CSS", "React", "VMs", "Patching"].map(skill => (
             <li key={skill} className="skill-item">{skill}</li>
           ))}
         </ul>
 
         <h2>Tools & Technologies</h2>
         <ul>
-          {["Linux", "Data Visualization", "MS Word, Excel & Access", "SQL / ETL"].map(tool => (
+          {["Linux", "Windows OS", "Data Visualization", "MS Word, Excel & Access", "SQL / ETL"].map(tool => (
             <li key={tool} className="skill-item">{tool}</li>
           ))}
         </ul>
