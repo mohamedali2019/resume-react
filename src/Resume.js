@@ -68,7 +68,7 @@ function Resume() {
         "Marketed company’s promotions",
         "Handled large financial payments and records",
         "Trained and mentored new employees",
-        "all operations, focusing on quality and consistency",
+        "Organized all operations, focusing on quality and consistency",
         "Used Tech efficiently for communication across departments"
       ]
     }
