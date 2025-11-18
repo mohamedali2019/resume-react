@@ -1,5 +1,6 @@
 // Resume.js
 import React, { useState } from 'react';
+import { FaDownload } from 'react-icons/fa';
 import './Resume.css';
 
 function Resume() {
@@ -90,18 +91,16 @@ function Resume() {
             <li key={tool} className="skill-item">{tool}</li>
           ))}
         </ul>
+        <a
+          href={process.env.PUBLIC_URL + '/resume.pdf'}
+          download="Mohamed_Ali_Resume.pdf"
+          className="glow-download-btn"
+          aria-label="Download Resume PDF"
+        >
+          <FaDownload style={{ marginRight: 10 }} />
+          Download Resume
+</a>
 
-         <button
-            className="download-btn"
-            onClick={() => {
-                const link = document.createElement('a');
-                link.href = '/resume.pdf';
-                link.download = 'Mohamed_Ali_Resume.pdf';
-                link.click();
-    }}
-  >
-    Download Resume
-  </button>
       </aside>
 
       {/* Main Content */}
