@@ -87,7 +87,7 @@ function Resume() {
 
         <h2>Tools & Technologies</h2>
         <ul>
-          {["Linux", "Windows OS", "Data Visualization", "MS Word, Excel & Access", "SQL / ETL"].map(tool => (
+          {["Linux", "Windows OS", "Data Visualization", "MS Word, Excel & Access", "SQL / ETL", "Git", "CLI"].map(tool => (
             <li key={tool} className="skill-item">{tool}</li>
           ))}
         </ul>
